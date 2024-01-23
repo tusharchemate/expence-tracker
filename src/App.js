@@ -4,6 +4,7 @@ import Header from './Header';
 import Balance from './Balance';
 import IncomeExpenses from './IncomeExpenses';
 import TransactionList from './TransactionList';
+import AddTransaction from './AddTransaction';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <div className="container">
         <Balance />
         <IncomeExpenses />
-        <TransactionList/>
+        <TransactionList />
+        <AddTransaction />
       </div>
     </div>
   );
